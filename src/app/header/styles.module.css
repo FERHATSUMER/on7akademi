@@ -1,0 +1,46 @@
+/* page.module.css */
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .headerRight {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    border-radius: 50%;
+    width: 60px;
+    cursor: pointer;
+  }
+  
+  .headerTitle {
+    margin-left: 75px;
+      margin-top: -40px;
+  }
+  
+  .navRight {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navRight > * {
+    display: flex;
+    margin-left: 10px;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+    gap: 20px;
+  
+  }
+  
+  
+  .navRight > *:hover {
+    font-size: 20px;
+    transform: translateY(-3px);
+    transition: all 0.2s ease-in-out;
+}
+  

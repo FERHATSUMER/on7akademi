@@ -1,0 +1,63 @@
+/* styles.module.css */
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(1fr,2fr, 2fr,  );
+    gap: 10px;
+}
+  
+  .card {
+    width: calc(33.33% - 20px); /* Her satırda 3 kart olsun */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px; /* Kartlar arasında boşluk bırak */
+  }
+  
+  
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .nitro {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: opacity 0.3s;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .card:hover .nitro {
+    opacity: 1;
+  }
+  
+  .h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .h3 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .h4 {
+    margin: 0;
+    font-size: 14px;
+  }
+  
