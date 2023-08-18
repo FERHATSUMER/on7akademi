@@ -1,13 +1,14 @@
 /* styles.module.css */
 
 .cardContainer {
-    display: grid;
-    grid-template-columns: repeat(1fr,2fr, 2fr,  );
-    gap: 10px;
+    margin-top: 11rem;
 }
   
   .card {
-    width: calc(33.33% - 20px); /* Her satırda 3 kart olsun */
+
+    display: flex;
+    width: 22rem;
+    height: 24rem;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -31,9 +32,10 @@
   
   .nitro {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(203, 197, 197, 0.9);
     transition: opacity 0.3s;
     opacity: 0;
+    height: 70%;
     position: absolute;
     bottom: 0;
     left: 0;

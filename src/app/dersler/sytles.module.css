@@ -1,0 +1,5 @@
+.cardInformation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Kartları yatayda ortalamak için */
+}

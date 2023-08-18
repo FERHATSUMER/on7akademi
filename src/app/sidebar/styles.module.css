@@ -17,6 +17,7 @@
     color: #fff;
 }
 .sidebarMenu{
+    color: #fff;
     width:14rem;
     height: 10rem;
     margin-top: 20px;
@@ -24,6 +25,7 @@
 
 }
 .sidebarMenuItem{
-    cursor: pointer;
-    padding: 10px;
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
 }

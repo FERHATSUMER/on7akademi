@@ -1,16 +1,4 @@
-.container{
-    margin: 0;
-    padding: 0;
-    background-color: white;
-}
 
-.header{
-    height: 100px;
-    width: 77rem;
-    margin-left: 290px;
-    background-color: #242323;
-    border: 2px solid rgb(64, 0, 255);
-  }
   .content{
     border: 2px solid red;
     height: 100vh;
@@ -20,13 +8,3 @@
     margin-left: 290px;
     transition: all 0.5s ease;}
   
-  .sidebar{
-    border: 2px solid red;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 250px;
-    background: #001529;
-    transition: all 0.5s ease;
-  }
