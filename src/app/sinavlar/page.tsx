@@ -1,8 +1,9 @@
+import styles from './styles.module.scss';
 export default function Sinavlar() {
     return (
-        <div className="container">
+        <div className={styles.container}>
             <h1>Sınav Sayfası</h1>
-            <table className="exam-table">
+            <table className={styles.examTable}>
                 <tbody>
                     <tr>
                         <td><strong>Sınav Adı:</strong></td>
