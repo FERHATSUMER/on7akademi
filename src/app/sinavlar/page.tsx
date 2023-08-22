@@ -1,28 +1,30 @@
-import styles from './styles.module.scss';
-export default function Sinavlar() {
+import informations from '../assets/page';
+import styles from './styles.module.css';
+
+
+
+export default function Sinavlar({info, content, title, image}) {
     return (
-        <div className={styles.container}>
-            <h1>Sınav Sayfası</h1>
-            <table className={styles.examTable}>
-                <tbody>
-                    <tr>
-                        <td><strong>Sınav Adı:</strong></td>
-                        <td>Matematik Sınavı</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Sınav Tarihi:</strong></td>
-                        <td>15 Eylül 2023</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Dersin Öğretmen Adı:</strong></td>
-                        <td>Ahmet Yılmaz</td>
-                    </tr>
-                </tbody>
-            </table>
-            <button className="button">Sınava Katıl</button>
-            <button className="button button-secondary">Ekle</button>
+        <div>
+        <div className={styles.cardContainer}>
+          {informations.map((info, index) => (
+            <div className={styles.card} key={index}>
+              <img
+                src={info.image}
+                alt="resim"
+                className="photo"
+              />
+              <div className={styles.nitro}>
+                <h1 className={styles.h1}>{info.title}</h1>
+                <h3 className={styles.h3}>Öğretmen Adı</h3>
+                <h4 className={styles.h4}>
+                  {info.content}
+                </h4>
+              </div>
+            </div>
+          ))}
         </div>
+      </div>
     );
-};  
-  
-  
+};
+
