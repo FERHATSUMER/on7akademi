@@ -1,43 +1,38 @@
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .examTable {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-  }
-  
-  .exam-table td {
-    padding: 8px;
-    border: 1px solid #ccc;
-  }
-  
-  .exam-table td strong {
-    font-weight: bold;
-  }
-  
-  .button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-right: 10px;
-  }
-  
-  .button-secondary {
-    background-color: #ccc;
-    color: #333;
-  }
-  
-  .button:hover,
-  .button-secondary:hover {
-    background-color: #0056b3;
-  }
-  
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.nitro {
+  padding: 20px;
+  background-color: rgba(203, 197, 197, 0.9);
+  transition: opacity 0.3s;
+  opacity: 0;
+  height: 70%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card:hover .nitro {
+  opacity: 1;
+}
+
+.h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.h4 {
+  margin: 0;
+  font-size: 14px;
+}
