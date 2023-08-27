@@ -9,7 +9,7 @@ export default function Sinavlar() {
           <img
             src="https://media.istockphoto.com/id/1219382595/tr/vekt%C3%B6r/bir-tahtaya-yaz%C4%B1lan-matematik-denklemleri.jpg?s=612x612&w=0&k=20&c=KdDQ4aB9JdCGG-OBBB-9ESv3XuvcF5ZPiIgjCGA6YIc="
             alt="resim"
-            className="photo"
+            className={styles.photo}
           />
           <div className={styles.nitro}>
             <h1 className={styles.h1}>Matematik</h1>
