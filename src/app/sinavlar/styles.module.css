@@ -1,48 +1,81 @@
-.container{
+
+
+ .container {
+  gap: 10rem;
+  border: 3px solid blue;
   height: 100vh;
-  width: 77rem;
+  width: 76rem;
   background-color: #f0f2f5;
   margin-top: 34px;
   margin-left: 290px;
   transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.title {
+margin-top: -40rem;
+margin-left: -10rem;
+  font-size: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .photo {
-  border: 3px solid blue;
   width: 100%;
   height: auto;
-  object-fit: cover;
+  max-width: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .nitro {
   padding: 20px;
-  background-color: rgba(203, 197, 197, 0.9);
-  transition: opacity 0.3s;
-  opacity: 0;
-  height: 70%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-.card:hover .nitro {
-  opacity: 1;
+  text-align: center;
 }
 
 .h1 {
-  margin: 0;
-  font-size: 24px;
+  font-size: 20px;
+  margin: 10px 0;
 }
 
 .h3 {
-  margin: 10px 0;
-  font-size: 18px;
+  font-size: 16px;
+  color: #777;
+  margin: 5px 0;
 }
 
 .h4 {
-  margin: 0;
   font-size: 14px;
+  color: #444;
+  margin: 10px 0;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
 }
