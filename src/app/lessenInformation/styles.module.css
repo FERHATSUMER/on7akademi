@@ -1,8 +1,17 @@
 /* styles.module.css */
 
 .cardContainer {
-    margin-top: 11rem;
-}
+  gap: 10rem;
+  border: 3px solid blue;
+  height: 100vh;
+  width: 76rem;
+  background-color: #f0f2f5;
+  margin-top: 34px;
+  margin-left: 290px;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
   
   .card {
 
