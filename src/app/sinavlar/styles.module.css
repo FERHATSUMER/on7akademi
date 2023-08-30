@@ -1,9 +1,8 @@
 .examsContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  margin-top: 34px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  padding: 10px;
 }
 
 .examsCardContainer {
