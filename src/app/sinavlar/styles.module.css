@@ -1,31 +1,20 @@
-
-
- .container {
-  gap: 10rem;
-  border: 3px solid blue;
-  height: 100vh;
-  width: 76rem;
-  background-color: #f0f2f5;
-  margin-top: 34px;
-  margin-left: 290px;
-  transition: all 0.5s ease;
+.examsContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-} 
-.cardContainer{
-  height: 100vh;
-  width: 76rem;
+  gap: 2rem;
   margin-top: 34px;
-  margin-left: 290px;
-  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-    padding: 10px;
 }
-.card {
-  
-  width: 350px;
+
+.examsCardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.examsCard {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,41 +25,41 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.card:hover {
+.examsCard:hover {
   transform: scale(1.05);
 }
 
-.photo {
+.examsPhoto {
   width: 100%;
-  height: auto;
   max-width: 300px;
+  height: auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-.nitro {
+.examsNitro {
   padding: 20px;
   text-align: center;
 }
 
-.h1 {
+.examsh1 {
   font-size: 20px;
   margin: 10px 0;
 }
 
-.h3 {
+.examsh3 {
   font-size: 16px;
   color: #777;
   margin: 5px 0;
 }
 
-.h4 {
+.examsh4 {
   font-size: 14px;
   color: #444;
   margin: 10px 0;
 }
 
-.button {
+.examsButton {
   padding: 10px 20px;
   background-color: #007bff;
   color: white;
@@ -82,6 +71,6 @@
   transition: background-color 0.3s ease;
 }
 
-.button:hover {
+.examsButton:hover {
   background-color: #0056b3;
 }
