@@ -1,5 +1,8 @@
 .cardInformation{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; /* Kartları yatayda ortalamak için */
+    height: 100vh;
+    width: 74rem;
+    background-color: #f0f2f5;
+    margin-top: 34px;
+    margin-left: 290px;
+    transition: all 0.5s ease;
 }

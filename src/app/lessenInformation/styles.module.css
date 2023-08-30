@@ -1,74 +1,61 @@
-/* styles.module.css */
-
 .cardContainer {
-  gap: 10rem;
-  border: 3px solid blue;
-  height: 100vh;
-  width: 76rem;
-  background-color: #f0f2f5;
-  margin-top: 34px;
-  margin-left: 290px;
-  transition: all 0.5s ease;
-  display: flex;
-  justify-content: center;
-  align-items: center;}
-  
-  .card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+}
 
-    display: flex;
-    width: 22rem;
-    height: 24rem;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s, box-shadow 0.3s;
-    margin-bottom: 20px; /* Kartlar arasında boşluk bırak */
-  }
-  
-  
-  
-  .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  
-  .nitro {
-    padding: 20px;
-    background-color: rgba(203, 197, 197, 0.9);
-    transition: opacity 0.3s;
-    opacity: 0;
-    height: 70%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-  }
-  
-  .card:hover .nitro {
-    opacity: 1;
-  }
-  
-  .h1 {
-    margin: 0;
-    font-size: 24px;
-  }
-  
-  .h3 {
-    margin: 10px 0;
-    font-size: 18px;
-  }
-  
-  .h4 {
-    margin: 0;
-    font-size: 14px;
-  }
-  
+.lessenCard {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+}
+
+.lessenCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.lessenPhoto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lessenNitro {
+  padding: 20px;
+  background-color: rgba(203, 197, 197, 0.9);
+  transition: opacity 0.3s;
+  opacity: 0;
+  height: 88%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.lessenCard:hover .lessenNitro {
+  opacity: 1;
+}
+
+.lessenH1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.lessenH3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.lessenH4 {
+  margin: 0;
+  font-size: 14px;
+}
