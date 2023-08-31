@@ -13,7 +13,7 @@ export default function Header() {
             src="https://media.licdn.com/dms/image/C560BAQG50mwENt9gSQ/company-logo_400_400/0/1632727910976?e=2147483647&v=beta&t=0w36fnGQ37PWTm253SLL0PVTr2ziC_mzcyO71DlLIDc"
             alt="logo"
           />
-        </Link>{" "}
+        </Link>
         <h1 className={styles.headerTitle}>Ferhat Sümer</h1>
       </div>
       <nav>
