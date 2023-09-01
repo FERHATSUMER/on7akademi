@@ -13,6 +13,7 @@ export default function Sidebar() {
         <h3 className={styles.sidebarTitle}>Kullanıcı Paneli</h3>
       </div>
       <div className={styles.sidebarMenu}>
+        <Link href="/"><h3>ana sayfa</h3></Link>  
         <div className={styles.sidebarMenuItem}>
           <PiBooks />
           <Link href="/dersler">

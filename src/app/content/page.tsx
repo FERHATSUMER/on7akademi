@@ -1,8 +1,7 @@
-import styles from "./page.module.css";
 
 export default function Content() {
   return (
-    <div className={styles.contentContainer}>
+    <div >
       <h1>On7 Akademi</h1>
       <div>
         <h2>DERSE KATILIM</h2>
