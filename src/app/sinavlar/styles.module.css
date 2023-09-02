@@ -1,73 +1,59 @@
-.examsAllContainer {
+.examsContainer {
   margin-left: 290px;
-  
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.examsContainer {
-display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 50px;
-  padding: 10px;
-  transition: all 0.5s ease;
+.examsCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .examsCard {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.3s ease-in-out;
-  margin-bottom: 20px;
-}
-
-.examsCard:hover {
-  transform: scale(1.05);
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .examsPhoto {
   width: 100%;
-  max-width: 300px;
-  height: auto;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
 
 .examsNitro {
-  padding: 20px;
-  text-align: center;
+  padding: 10px;
 }
 
 .examsh1 {
-  font-size: 20px;
-  margin: 10px 0;
+  font-size: 24px;
+  margin: 0;
 }
 
 .examsh3 {
-  font-size: 16px;
-  color: #777;
+  font-size: 18px;
   margin: 5px 0;
 }
 
 .examsh4 {
-  font-size: 14px;
-  color: #444;
-  margin: 10px 0;
+  font-size: 16px;
 }
-
+.examsButtonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
 .examsButton {
-  padding: 10px 20px;
   background-color: #007bff;
-  color: white;
+  color: #fff;
+  border-radius: 15px;
   border: none;
-  border-radius: 5px;
-  font-size: 14px;
+  padding: 10px 20px;
+  margin-top: 10px;
   cursor: pointer;
-  margin: 5px;
-  transition: background-color 0.3s ease;
 }
 
 .examsButton:hover {

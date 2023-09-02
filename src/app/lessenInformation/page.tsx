@@ -1,6 +1,4 @@
 import styles from "./styles.module.css";
-import informations from "../assets/page";
-import Header from "../header/page";
 
 export default function LessenInformation() {
   return (
