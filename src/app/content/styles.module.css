@@ -1,0 +1,52 @@
+
+
+/* Ana konteynırı stilize et */
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Başlık stilini düzenle */
+.title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* İçerik kutularını stilize et */
+.content {
+  margin: 20px 0;
+}
+
+.subtitle {
+  font-size: 24px;
+  color: #555;
+  margin: 0;
+}
+
+/* Düğme stilini düzenle */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
