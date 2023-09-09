@@ -1,11 +1,9 @@
 
   .content{
-    border: 2px solid red;
     height: 100vh;
-    width: 77rem;
+    width: 76rem;
     background-color: #f0f2f5;
     margin-top: 34px;
     margin-left: 290px;
-    transition: all 0.5s ease;
   }
   
